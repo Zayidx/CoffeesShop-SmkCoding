@@ -1,0 +1,15 @@
+.bg {
+
+  z-index: -5;
+  background-color: #f6eada !important;
+  height: 250px;
+  min-height: 250px;
+}
+    
+.bg-cofee {
+  position: absolute;
+  width: 650px;
+  height: 400px;
+  top: -100px;
+  left: -20px;
+}
