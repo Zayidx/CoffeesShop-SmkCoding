@@ -1,15 +1,62 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .bg {
 
   z-index: -5;
   background-color: #f6eada !important;
-  height: 250px;
-  min-height: 250px;
+  height: 400px;
 }
     
 .bg-cofee {
   position: absolute;
-  width: 650px;
+  width: 500px;
   height: 400px;
-  top: -100px;
+  top: -52px;
   left: -20px;
+  transform: rotate();
+}
+
+.bg-rounded {
+  background-color: #f9d9aa;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 380px;
+  margin-top: -180;
+  border-radius: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+.star {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 40px;
+  height: 20px;
+  background-color: white !important;
+  border:#f9d9aa;
+  font-size: 12px;
+}
+
+.rate {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 40px;
+  height: 20px;
+  background-color: white !important;
+  color: black;
+  font-size: 10px;
+  border: solid #f6eada 3px;
+}
+
+.bg-card{
+background-color: #F9D9AA;
+width: 1155px;
+height: 300px;
+margin-left: -20px;
+margin-top: 130px;
 }
